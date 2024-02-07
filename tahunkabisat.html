@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahun Kabisat</title>
+</head>
+<body>
+    <script>
+        for(let awal = 1600; awal <= 2024; awal++)
+        if (awal % 400 == 0){
+            console.log(`${awal} Tahun Kabisat`)
+        } else if (awal % 100 == 0) {
+            console.log(`${awal} Bukan Tahun Kabisat`)
+        } else if (awal % 4 == 0) {
+            console.log(`${awal} Tahun Kabisat`)
+        }
+    </script>
+</body>
+</html>

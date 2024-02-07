@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faktorial</title>
+</head>
+<body>
+    <script>
+        // Faktorial
+
+        // For
+       let f = 1
+       let a = 5
+       for(let n = 1; n <= a; n++){
+        f *= n;
+       }
+       console.log ('angka'+'faktorial'+'adalah',f)
+       document.write (`Faktorial dari ${a} adalah ${f}`)
+    
+    //    While
+    let fak = 1
+    let ang = 5
+    let u = 1
+    while(u <= ang)  {
+    fak *= u; 
+    console.log ('angka'+'faktorial'+'adalah',fak)
+    document.write (`Faktorial dari ${ang} adalah ${fak}`)
+    u++
+    }
+
+    // Do while
+    let faktorial = 1
+    let angka = 5
+    let r = 1
+        do {
+        faktorial *= r; 
+        console.log ('angka'+'faktorial'+'adalah',faktorial)
+        document.write (`Faktorial dari ${angka} adalah ${faktorial}`)
+        r++
+        } while(r <=angka) 
+
+
+
+</script>
+</body>
+</html>
